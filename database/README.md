@@ -1,0 +1,1 @@
+This folder contains the database engine we used for our experiments. Please use the branch "VER_16_BINARY_SEARCH". And for the experiments, you should enable "binary search" for the database you create.

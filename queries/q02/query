@@ -1,1 +1,0 @@
-select district, community_area, ward, beat, count(beat) as crime_count from crimes group by district, community_area, ward, beat having count(id) > 1000

@@ -1,0 +1,1 @@
+select o_orderpriority, count(*)::bigint as order_count from ((select distinct o_orderkey, o_orderpriority from orders where o_orderdate >= to_date('1996-07-01', 'YYYY-MM-DD') and o_orderdate < to_date('1996-10-01', 'YYYY-MM-DD')) orders join (select l_orderkey from lineitem) lineitem on (l_orderkey = o_orderkey)) ol group by o_orderpriority order by o_orderpriority

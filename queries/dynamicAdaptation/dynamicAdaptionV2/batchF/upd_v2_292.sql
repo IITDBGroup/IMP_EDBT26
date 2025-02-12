@@ -1,0 +1,1 @@
+insert into dyv2_delta select *, -1, 292 from edb1 where a = 42372;

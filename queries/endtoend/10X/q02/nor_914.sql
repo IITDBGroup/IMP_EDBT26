@@ -1,0 +1,1 @@
+delete from edb1 where a >= 2021 and a < 2031;

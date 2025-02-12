@@ -1,0 +1,1 @@
+CAPTURE PROVENANCE WITH COARSE GRAINED RANGESB (t1gbjoin(a 1,501,1001,1501,2001,2501,3001,3501,4001,4501,5001)) OF (select a, avg(b) as ab from (select a as a, b as b, c as c from t1gbjoin where b < 1000) tt join tjoinhelp on (a = ttid) group by a having avg(c) < 1000);

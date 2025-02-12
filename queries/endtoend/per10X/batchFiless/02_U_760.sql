@@ -1,0 +1,1 @@
+insert into tim01e1_delta_02 select *, -1, 760 from edb1 where id >= 51613 and id < 51633;

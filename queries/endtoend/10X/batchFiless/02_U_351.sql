@@ -1,0 +1,1 @@
+insert into tim10e1_delta_02 select *, 1, 351 from edb1_backup where a >= 6472 and a < 6482;

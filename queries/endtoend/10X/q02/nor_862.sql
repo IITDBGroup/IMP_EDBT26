@@ -1,0 +1,1 @@
+insert into edb1 select * from edb1_backup where a >= 29232 and a < 29242;

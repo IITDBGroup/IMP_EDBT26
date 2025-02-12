@@ -1,0 +1,1 @@
+insert into tim10e1_delta_01 select *, -1, 96 from edb1 where a >= 23200 and a < 23210;

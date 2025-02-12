@@ -1,0 +1,1 @@
+delete from edb1 where a >= 17118 and a < 17128;

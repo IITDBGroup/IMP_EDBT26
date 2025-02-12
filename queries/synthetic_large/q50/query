@@ -1,0 +1,1 @@
+select a, avg(b) as ab from t1gb500000g group by a having avg(c) < 160000

@@ -1,0 +1,1 @@
+select a, avg(b) as ab from r500 group by a

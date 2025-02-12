@@ -1,0 +1,1 @@
+select a, avg(c) as ac from edb1 where ((a >= 16569 and a < 16623) OR (a >= 24650 and a < 24710) OR (a >= 48446 and a < 48504)) group by a having avg(c) > 1977307 and avg(c) < 1983112;

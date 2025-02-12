@@ -1,0 +1,1 @@
+insert into tim01e1_delta_02 select *, 1, 884 from edb1_backup where id >= 17347 and id < 17367;

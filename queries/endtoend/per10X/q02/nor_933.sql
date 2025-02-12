@@ -1,0 +1,1 @@
+delete from edb1 where id >= 24480 and id < 24500;

@@ -1,0 +1,1 @@
+delete from edb1 where a >= 301 and a < 311;

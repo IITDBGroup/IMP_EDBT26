@@ -1,0 +1,17 @@
+Q: 1, cap: 1660000_1690000
+, reuse where cond len:11Q: 2, cap: 1600000_1630000
+, reuse where cond len:25Q: 3, cap: 1780000_1840000
+, reuse where cond len:14Q: 4, cap: 1600000_1660000
+, reuse where cond len:42Q: 5, cap: 1780000_1810000
+, reuse where cond len:5q-01:U-6:setLen:0:CLEAR
+Q: 7, cap: 1870000_1930000
+, reuse where cond len:5Q: 8, cap: 1600000_1630000
+, reuse where cond len:25Q: 9, cap: 1960000_1990000
+, reuse where cond len:3Q: 10, cap: 1870000_1930000
+, reuse where cond len:5Q: 11, cap: 1720000_1750000
+, reuse where cond len:12q-01:U-12:setLen:0:CLEAR
+Q: 13, cap: 1870000_1900000
+, reuse where cond len:4Q: 14, cap: 1780000_1810000
+, reuse where cond len:5Q: 15, cap: 1630000_1660000
+, reuse where cond len:19Q: 16, cap: 1660000_1690000
+, reuse where cond len:11Q: 17, cap: 1870000_1900000

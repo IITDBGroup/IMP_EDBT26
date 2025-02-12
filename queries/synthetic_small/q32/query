@@ -1,0 +1,1 @@
+select a, avg(b) as ab from t1gbjoin join tjoinhelppercent10 on (a = ttid) where b < 1000 group by a having avg(c) < 1000

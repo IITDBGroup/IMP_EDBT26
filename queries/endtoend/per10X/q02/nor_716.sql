@@ -1,0 +1,1 @@
+insert into edb1 select * from edb1_backup where id >= 58254 and id < 58274;
